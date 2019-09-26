@@ -22,6 +22,12 @@ The `-r esm` flag is necessary to enable the use of the common-substrings packag
 The output of the program will be three lines of text that display the name, phone number, and email extracted from the given text.
 If the program is unable to find any of these items, the output will say "No Valid [item] Found".
 
+#### Example
+Input: ```node -r esm index.js -f tests/test1.txt```
+Output: ```Name: Mike Smith
+Phone: 4105551234
+Email: msmith@asymmetrik.com```
+
 ### Testing
 I created a testing script to ensure that the program works with several use cases. 
 To run the test script use the command:
