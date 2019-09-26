@@ -2,7 +2,6 @@
 
 // Enable reading files
 const fs = require('fs');
-const lineReader = require('line-reader');
 
 const ContactInfo = require('./ContactInfo.js');
 import substrings from 'common-substrings';
