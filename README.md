@@ -26,8 +26,8 @@ If the program is unable to find any of these items, the output will say "No Val
 Input: ```node -r esm index.js -f tests/test1.txt```
 
 Output: 
-    Name: Mike Smith
-    Phone: 4105551234
+    Name: Mike Smith\
+    Phone: 4105551234\
     Email: msmith@asymmetrik.com
 
 ### Testing
