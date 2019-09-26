@@ -8,13 +8,12 @@ import substrings from 'common-substrings';
 
 // This class parses through the given text to extract name, phone number, and email
 class BusinessCardParser{
-   constructor(type, documentName){
+   constructor(type, documentValue){
      if(type == 'f'){
-       this.document = fs.readFileSync(documentName, 'utf8').toString();
+       this.document = fs.readFileSync(documentValue, 'utf8').toString();
      }
      else if(type == 'm'){
-       this.document = documentName;
-       console.log(documentName);
+       this.document = documentValue;
      }
    }
 
