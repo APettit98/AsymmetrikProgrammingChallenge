@@ -12,7 +12,7 @@ All packages should be able to be installed using npm.
 ### Usage
 To run the program, navigate to the directory and use the command: 
 
-```node -r esm index.js [-f filename | --file filename] [-m | --manual]```
+    node -r esm index.js [-f filename | --file filename] [-m | --manual]
 
 Using the `-f` or `--filename` commands allow you to import a file to be parsed. 
 The `-m` and `--manual` commands allow you to type text into the console in order for that to be parsed.
@@ -23,8 +23,10 @@ The output of the program will be three lines of text that display the name, pho
 If the program is unable to find any of these items, the output will say "No Valid [item] Found".
 
 #### Example
-Input: ```node -r esm index.js -f tests/test1.txt```
+Input: 
 
+    node -r esm index.js -f tests/test1.txt
+    
 Output: 
 
     Name: Mike Smith
@@ -35,7 +37,7 @@ Output:
 I created a testing script to ensure that the program works with several use cases. 
 To run the test script use the command:
 
-```node -r esm ParserTest.js```
+    node -r esm ParserTest.js
 
 This will test the parser against each of the 5 test files contained in the tests folder. 
 If the tests pass, the program will explicitly say so, otherwise it will say when it failed, what it expected to receive, and what it actually received.
