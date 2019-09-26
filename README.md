@@ -25,11 +25,9 @@ If the program is unable to find any of these items, the output will say "No Val
 #### Example
 Input: ```node -r esm index.js -f tests/test1.txt```
 
-Output: ```Name: Mike Smith
-
-Phone: 4105551234
-
-Email: msmith@asymmetrik.com```
+Output: ```Name: Mike Smith  
+Phone: 4105551234  
+Email: msmith@asymmetrik.com
 
 ### Testing
 I created a testing script to ensure that the program works with several use cases. 
